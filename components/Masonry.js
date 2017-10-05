@@ -125,7 +125,7 @@ export default class Masonry extends Component {
                             touchContainerStyle={this.props.touchContainerStyle}
                             customImageComponent={this.props.customImageComponent}
                             customImageProps={this.props.customImageProps}
-                            key={`RN-MASONRY-COLUMN-${rowID}`}/> }
+                            key={`RN-MASONRY-COLUMN-${rowID}-${data.id}`}/> }
                 />
             </View>
         )
